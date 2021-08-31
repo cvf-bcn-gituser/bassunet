@@ -1,5 +1,12 @@
 # BassUNet
 
+## Note from contributer.
+For the script "bassunet_evaluate_trinity.py" to work, you need to prepare a reference recording (reference.wav) and make  ground truths annotations for this
+for onset and offsets.
+
+
+
+
 ## Reference
 
 Algorithm for bass transcription (joint frame-level pitch and voicing estimation) using U-Net Fully Convolutional Networks
