@@ -390,11 +390,8 @@ class BassUNet:
         return precision, recall, f_measure_value
 
 if __name__ == '__main__':
-    #fn_wav = os.path.join(os.path.dirname(__file__), 'data','2_bassX_Walking On The Moon_The Police_Bass Gr3.wav')
 
 
-    #audio_files =   ['2_bassX_Billie Jean_Michael Jackson_BassGr1.wav']
-	
 
 	
     student_audio = []
@@ -438,8 +435,8 @@ if __name__ == '__main__':
     f1 = open(the_prf_file, "w")
     f1.write(" precision, recall, f_measure_value \n")
 
-	# Hard code 2_bassX_Billie Jean_Michael Jackson_BassGr1
-    filename= "2_bassX_Billie Jean_Michael Jackson_BassGr1"+".wav"
+1
+    filename= "reference"+".wav"
     print( "\n","Filename *************************" , filename,  "\n")
 
     bun = BassUNet()
